@@ -55,4 +55,6 @@ Now run the application
 ![](https://github.com/dawithw/Library-Project-MPP/blob/master/Library/src/docs/Login.png?raw=true)
 
 
-See the **[docs](https://github.com/dawithw/Library-Project-MPP/tree/master/Library/src/docs)** folder for more screenshots and UML diagrams
+For more UI screenshots, see the **[docs/ui](https://github.com/dawithw/Library-Project-MPP/tree/master/Library/src/docs/ui)** folder
+
+For UML diagrams (class and sequence) see the **[docs/uml](https://github.com/dawithw/Library-Project-MPP/tree/master/Library/src/docs/uml)** folder
