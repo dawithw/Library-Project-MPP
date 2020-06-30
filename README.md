@@ -12,31 +12,39 @@ Group #6 - Members
 
 ## Dependencies
 
-You will need to have JavaFX [installed and configured](https://openjfx.io/openjfx-docs/) for your IDE to run this application.
+You will need to [install and configure JavaFX](https://openjfx.io/openjfx-docs/) on your machine before you can run this application.
 
-## Run from Source
+## Running Application
 
-Right click on the **Library-Project-MPP/Library/src/Main.java** and run as Java Application
+If you want to run the application from your IDE, follow the guides in the JavaFX install and configure documentation linked above. 
 
-## Run from JAR file
+#### From source code
 
-Download the [Library.jar](https://github.com/dawithw/Library-Project-MPP/Library.jar) file
+Clone repository to your local machine
 
-Add your JavaFX */lib* folder to the PATH
+    git clone https://github.com/dawithw/Library-Project-MPP.git
 
-    export JAVA_FX=/path/to/javafx-sdk-11.0.2/lib/
+Navigate to the source folder
 
-Go to the folder where you downloaded the Library.jar file
+	cd Library-Project-MPP/Library/src
+	
+Add environment variable to the *lib* folder of your JavaFX runtime as described [here](https://openjfx.io/openjfx-docs/#install-javafx)
 
-    cd /path/to/..
-    
-Use the following command to add the JavaFX modules and execute the JAR file
+Compile project.
 
-    java --module-path $JAVA_FX --add-modules javafx.controls,javafx.fxml -jar Library.jar
+	javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml business/*.java dataaccess/*.java Main.java 
 
-## Application
+Note that *javafx.controls* and *javafx.fxml modules* are required for the application
+
+Now run the application
+
+	java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml Main
+
+
+### Application
 
 **Login Credentials**
+
 |Username|Password|Role|
 |-|-|-|
 | user1 |pass1  |User
