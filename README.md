@@ -52,7 +52,7 @@ Now run the application
 |user3|pass3|Admin
 
 
-![](https://github.com/dawithw/Library-Project-MPP/blob/master/Library/src/docs/Login.png?raw=true)
+![](https://github.com/dawithw/Library-Project-MPP/blob/master/Library/src/docs/ui/Login.png?raw=true)
 
 
 For more UI screenshots, see the **[docs/ui](https://github.com/dawithw/Library-Project-MPP/tree/master/Library/src/docs/ui)** folder
