@@ -1,5 +1,5 @@
 
-# Library-Project-MPP
+# Library Management System
 
 Group project for MPP Course of MUM 2018 August Entry
 
